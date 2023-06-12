@@ -1,4 +1,4 @@
-FROM python:3.9-alpune3.13
+FROM python:3.9-alpine3.13
 LABEL maintainer="https://github.com/mireu-san"
 
 # to run in docker container
