@@ -42,7 +42,7 @@ def create_recipe(user, **params):
 
 def create_user(**params):
     """Create and reutrn a new user"""
-    return get_user_model().objcets.create_user(**params)
+    return get_user_model().objects.create_user(**params)
 
 
 class PublicRecipeAPITests(TestCase):
